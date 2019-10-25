@@ -22,8 +22,8 @@ title: dansuh blog
 email: kaehops@gmail.com
 description: >- # this means to ignore newlines
   dansuh blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://dansuh17.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dansuh17
 show_excerpts: true
 excerpt_separator: <!--more-->
