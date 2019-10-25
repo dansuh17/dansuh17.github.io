@@ -1,0 +1,8 @@
+@import "minima";
+
+// applied to image with captions
+img + em {
+  text-align: center;
+  display: block;
+  color: $grey-color;
+}
