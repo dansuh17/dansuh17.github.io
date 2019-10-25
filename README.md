@@ -1,2 +1,3 @@
 # dansuh blog
-# dansuh17.github.io
+
+my personal blog
