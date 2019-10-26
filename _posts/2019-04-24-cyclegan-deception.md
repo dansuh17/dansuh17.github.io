@@ -15,8 +15,7 @@ The information is not visible to in the eye, so for a long time I was wondering
 ## Brief introduction to CycleGAN
 
 ![horse-to-zebra](/assets/img/horse_zebra.png)
-
-_Image from [CycleGAN project page](https://junyanz.github.io/CycleGAN/)_
+*Image from [CycleGAN project page](https://junyanz.github.io/CycleGAN/)*
 
 **CycleGAN** (Cycle-Consistent Generative Adversarial Networks) brought surprise to many of us with the famous 'horse-to-zebra' transfigure, back in ICCV 2017, by [Zhu, et al. 2017](https://arxiv.org/abs/1703.10593).
 It is able to successfully and dramatically transform one style of images to another, without explicit pair labeling.
@@ -26,14 +25,12 @@ The novelty of this model was to make use of a _pair_ of GAN models.
 Each of the generators are responsible for transforming images to another style, and the discriminators would determine whether the transformed image is real or not.
 
 ![cyclegan-architecture](/assets/img/cyclegan-architecture.png)
-
-_Image from [Hardik Bansal's Post](https://hardikbansal.github.io/CycleGANBlog/)_
+*Image from [Hardik Bansal's Post](https://hardikbansal.github.io/CycleGANBlog/)*
 
 ## Cycle-Consistency Loss
 
 ![cycle-consistency-loss](/assets/img/cycle-consistency-loss.png) 
-
-_Image from [CycleGAN paper](https://arxiv.org/abs/1703.10593)_
+*Image from [CycleGAN paper](https://arxiv.org/abs/1703.10593)*
 
 However, rather than training both GAN models independently, the authors devised the **cycle-consistency loss** in order to maintain transitivity between the two models.
 
