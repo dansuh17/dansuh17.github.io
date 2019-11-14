@@ -3,4 +3,4 @@
 set -eux
 
 rm -rf _site
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve --incremental --drafts
