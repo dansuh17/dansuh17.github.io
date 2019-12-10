@@ -1,5 +1,5 @@
 <figure>
-    <figcaption>{{ include.figcaption }}</figcaption>
+    <figcaption>{{ include.figcaption | markdownify }}</figcaption>
     <audio controls src="{{ include.src }}">
         Your browser does not support the <code>audio</code> element.
     </audio>
