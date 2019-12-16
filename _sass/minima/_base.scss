@@ -68,6 +68,11 @@ figcaption {
   font-size: $small-font-size;
 }
 
+// center-align image captions
+figure > img ~ figcaption {
+  text-align: center;
+}
+
 
 /**
  * Lists
